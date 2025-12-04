@@ -1,0 +1,60 @@
+{
+  "selection_criteria": "Anti-overfitting: low test RMSE, low CV std, good generalization",
+  "XGBoost_Bias_Correction": {
+    "params": {
+      "n_estimators": 50,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_alpha": 1.0,
+      "reg_lambda": 1.0,
+      "min_child_weight": 5,
+      "gamma": 0.1
+    },
+    "cv_rmse": 2.7816099700141144,
+    "cv_r2": 0.8861156038235569,
+    "cv_std_r2": 0.0978333953508746
+  },
+  "RandomForest_UHI": {
+    "params": {
+      "n_estimators": 40,
+      "max_depth": 5,
+      "min_samples_split": 20,
+      "min_samples_leaf": 8,
+      "max_features": "log2",
+      "max_samples": 0.8
+    },
+    "cv_rmse": 0.20881927600942385,
+    "cv_r2": 0.7371916718561033,
+    "cv_std_r2": 0.028391177424646863
+  },
+  "Ridge_Downscaling": {
+    "params": {
+      "alpha": 2.0,
+      "solver": "sparse_cg",
+      "fit_intercept": true,
+      "tol": 0.0001
+    },
+    "cv_rmse": 1.8753439592836636,
+    "cv_r2": 0.8933716599967513,
+    "cv_std_r2": 0.0994507227591456
+  },
+  "Quantile_Regression": {
+    "params": {
+      "n_estimators": 75,
+      "max_depth": 3,
+      "learning_rate": 0.07,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "min_child_weight": 5
+    },
+    "cv_rmse": 4.768548080445742,
+    "test_coverage_quality": {
+      "coverage_80": 0.6828703703703703,
+      "width_80": "9.414692",
+      "coverage_50": 0.4444444444444444,
+      "width_50": "5.227737"
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "t2m_vs_TX": {
+    "n": 2069,
+    "mean_bias": 1.457349212132963,
+    "rmse": 1.948610821456549,
+    "mae": 1.593488261412508,
+    "corr": 0.9887417668508843,
+    "hot_bias": 2.0113429476026354,
+    "hot_rmse": 2.3209089294402228,
+    "ks_stat": 0.0749154180763654,
+    "ks_p": 1.796985231542572e-05
+  },
+  "t2m_vs_TN": {
+    "n": 2010,
+    "mean_bias": 2.397874610337634,
+    "rmse": 3.003736496221909,
+    "mae": 2.5428337191974646,
+    "corr": 0.9825740525332878,
+    "hot_bias": 4.119678851466308,
+    "hot_rmse": 4.278100839988246,
+    "ks_stat": 0.16666666666666666,
+    "ks_p": 8.82087445569649e-25
+  },
+  "uhi_lcz_method": null,
+  "seasonal_uhi_lcz": null,
+  "uhi_distance_summer_night": {
+    "n_days": 1439,
+    "mean": 2.79856284413974,
+    "median": 2.563225806451614,
+    "std": 1.4509981025177245,
+    "p10": 1.3697985769020287,
+    "p90": 4.398437869822489,
+    "max": 11.222222222222225,
+    "min": 0.0,
+    "urban_max_km": 8.0,
+    "rural_min_km": 60.0,
+    "season": "JJA",
+    "conditions": "calm_dry_nights"
+  },
+  "ndvi_temp_fixed": null,
+  "ndvi_surface_cooling": {
+    "elasticity_surface_C_per_NDVI": -7.9886860847473145,
+    "corr_surface_deseas": -0.06578413317105525,
+    "n_days": 1340
+  },
+  "heatwaves": {
+    "count": 120,
+    "mean_length": 6.583333333333333,
+    "max_length": 25
+  },
+  "cold_spells": {
+    "count": 103,
+    "mean_length": 7.699029126213592,
+    "max_length": 47
+  },
+  "seasonal_means": {
+    "winter": {
+      "temp_mean": 9.114972654160098,
+      "precip_sum": 1332.2869994278235
+    },
+    "spring": {
+      "temp_mean": 17.713011494131415,
+      "precip_sum": 1559.0881599442243
+    },
+    "summer": {
+      "temp_mean": 29.170963977430834,
+      "precip_sum": 1211.8602551583162
+    },
+    "autumn": {
+      "temp_mean": 18.922100688371543,
+      "precip_sum": 1779.3044870096462
+    }
+  },
+  "wind_heat_relation": {
+    "corr_temp_wind": -0.09409001838166695,
+    "mean_hotday_wind": 1.7388792861644622
+  },
+  "precip_extremes": {
+    "top1pct_threshold": 263.703391304348,
+    "extreme_day_count": 94,
+    "extreme_day_mean": 338.42720104443623
+  },
+  "temp_variability": {
+    "std_temp": 8.631786448962625,
+    "iqr_temp": 14.803624009366263
+  },
+  "bias_stability": {
+    "rolling_bias_std": 1.1431929950358386
+  },
+  "regime_metrics": {
+    "calm_mean_temp": 17.6695467957777,
+    "windy_mean_temp": 16.715550566541584,
+    "difference": 0.9539962292361146
+  },
+  "wet_dry_stats": {
+    "wet_count": 5673,
+    "dry_count": 3701,
+    "wet_temp_mean": 16.960458917758864,
+    "dry_temp_mean": 19.79420462898842
+  },
+  "bias_distribution": {
+    "mean": 1.457349212132963,
+    "std": 1.2938417626277146,
+    "skew": 0.30427437454057693,
+    "kurtosis": 0.5115005189581558
+  },
+  "bias_quantiles": {
+    "0-10": 1.5168550190843113,
+    "10-20": 1.5216877383095417,
+    "20-30": 1.3959455633645292,
+    "30-40": 1.3110155497959306,
+    "40-50": 1.422259374530843,
+    "50-60": 1.2371144539746426,
+    "60-70": 1.0254413001106422,
+    "70-80": 1.342176301995423,
+    "80-90": 1.789941340227562,
+    "90-100": 2.0113429476026354
+  },
+  "temp_regime_bias": {
+    "0_10": {
+      "mean_bias": 1.4864136758488353,
+      "rmse": 1.9799724380390489,
+      "count": 369
+    },
+    "10_20": {
+      "mean_bias": 1.3892510701434069,
+      "rmse": 1.917300109494393,
+      "count": 773
+    },
+    "20_30": {
+      "mean_bias": 1.3231040831056877,
+      "rmse": 1.8134127975039878,
+      "count": 673
+    },
+    "above_30": {
+      "mean_bias": 1.978065938440546,
+      "rmse": 2.3095688064638114,
+      "count": 254
+    }
+  },
+  "heatwave_bias": {
+    "threshold_90th": 30.455613023255818,
+    "mean_bias": 2.0113429476026354,
+    "rmse": 2.3209089294402228,
+    "max_underestimate": -1.3778604526712463,
+    "count": 207
+  },
+  "correlation_matrix": {
+    "ERA5_t2m_max_C": {
+      "ERA5_t2m_max_C": 1.0,
+      "TX_C_city_mean": 0.988741766850885,
+      "TN_C_city_mean": 0.9408207027036473,
+      "RR_mm_city_mean": -0.10978703618003831,
+      "PP_hPa_city_mean": -0.2220659007315725,
+      "FG_ms_city_mean": -0.07399631669862848,
+      "NDVI_city": 0.2013112751505627
+    },
+    "TX_C_city_mean": {
+      "ERA5_t2m_max_C": 0.988741766850885,
+      "TX_C_city_mean": 1.0,
+      "TN_C_city_mean": 0.9436426388814363,
+      "RR_mm_city_mean": -0.14033540534060848,
+      "PP_hPa_city_mean": -0.10428810399341423,
+      "FG_ms_city_mean": -0.09409001838166695,
+      "NDVI_city": 0.2239551186676457
+    },
+    "TN_C_city_mean": {
+      "ERA5_t2m_max_C": 0.9408207027036473,
+      "TX_C_city_mean": 0.9436426388814363,
+      "TN_C_city_mean": 1.0,
+      "RR_mm_city_mean": 0.0193191700552955,
+      "PP_hPa_city_mean": -0.17874227283632954,
+      "FG_ms_city_mean": -0.062476771527700876,
+      "NDVI_city": 0.1367984519979761
+    },
+    "RR_mm_city_mean": {
+      "ERA5_t2m_max_C": -0.10978703618003831,
+      "TX_C_city_mean": -0.14033540534060848,
+      "TN_C_city_mean": 0.0193191700552955,
+      "RR_mm_city_mean": 1.0,
+      "PP_hPa_city_mean": -0.2996249993014478,
+      "FG_ms_city_mean": 0.3130527094018589,
+      "NDVI_city": -0.024428120257119892
+    },
+    "PP_hPa_city_mean": {
+      "ERA5_t2m_max_C": -0.2220659007315725,
+      "TX_C_city_mean": -0.10428810399341423,
+      "TN_C_city_mean": -0.17874227283632954,
+      "RR_mm_city_mean": -0.2996249993014478,
+      "PP_hPa_city_mean": 1.0,
+      "FG_ms_city_mean": -0.20906089296562583,
+      "NDVI_city": -0.07184291893039722
+    },
+    "FG_ms_city_mean": {
+      "ERA5_t2m_max_C": -0.07399631669862848,
+      "TX_C_city_mean": -0.09409001838166695,
+      "TN_C_city_mean": -0.062476771527700876,
+      "RR_mm_city_mean": 0.3130527094018589,
+      "PP_hPa_city_mean": -0.20906089296562583,
+      "FG_ms_city_mean": 1.0,
+      "NDVI_city": 0.16273924258047215
+    },
+    "NDVI_city": {
+      "ERA5_t2m_max_C": 0.2013112751505627,
+      "TX_C_city_mean": 0.2239551186676457,
+      "TN_C_city_mean": 0.1367984519979761,
+      "RR_mm_city_mean": -0.024428120257119892,
+      "PP_hPa_city_mean": -0.07184291893039722,
+      "FG_ms_city_mean": 0.16273924258047215,
+      "NDVI_city": 1.0
+    }
+  }
+}
