@@ -1,7 +1,7 @@
 # GenHack 4 - 2025 - Project: Urban Heat Island Bias Correction for ERA5-Land Analysis
 
 
-![GenHack 2024 Main Banner](https://raw.githubusercontent.com/mohymabrouk/genhack4-hackathon/main/genhack4-main.png)
+![GenHack 2024 Main Banner](https://raw.githubusercontent.com/mohymabrouk/genhack4-hackathon/main/genhack4-main.jpeg)
 
 
 
